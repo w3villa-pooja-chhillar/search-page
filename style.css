@@ -976,6 +976,14 @@ margin-bottom:20px;
     padding:0px;
 }
 }
+@media screen and (max-width:648px){
+    .product-compare{
+        flex-direction:column;
+    }
+    .product-compare-default{
+        margin-top:5px;
+    }
+}
 
 /* making list view section */
 .list-items{
