@@ -237,55 +237,71 @@
                             <div class="price">
                                 Price
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add" onclick="addpart_price()">
                                 +
                             </div>
                         </div>
                         <div class="add-part">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation 
+                            <input id="range" type="range" min="1" max="100" value="50">
                         </div>
                         <hr>
                         <div class="price-section">
                             <div class="avail">
                                 Avaialbility
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add" onclick="addpart_availbility()">
                                 +
                             </div>
                         </div>
-                        <div class="add-part">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation 
+                        <div class="add-part-avail">
+                        <div id="stock">  <input type="checkbox" > In Stock
+                            &nbsp&nbsp&nbsp&nbsp&nbsp
+                          <input type="checkbox"> Out of stock
+                          </div>
                         </div>
                         <hr>
                         <div class="avail-section">
                             <div class="avail">
                                 Sub category
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add" onclick="addpart_subcategory()">
                                 +
                             </div>
                         </div>
-                        <div class="add-part">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation 
+                        <div class="add-part-subcat">
+                          <div class="sub-img">
+                            <img src="https://i.pinimg.com/236x/f2/25/dc/f225dcadb6f08f49e6246d94bf0e1572.jpg">
+                            <a>Electronics</a>
+                          </div>
                         </div>
                         <hr>
                         <div class="avail-section">
                             <div class="avail">
                                 Brands
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add" onclick="addpart_brand()">
                                 +
                             </div>
                         </div>
-                        <div class="add-part">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation 
+                        <div class="add-part-brand">
+                            <div class="brand-img">
+                                <div class="brand-img-a">
+                                    <img src="https://i.pinimg.com/236x/b1/61/7d/b1617dde668db5f425a27c16f29a035e.jpg">
+                                </div>
+                                <div class="brand-img-b">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxOHwxHlcXUUwTSnHkfTOwSys4G4qqb0Bg&usqp=CAU">
+                                </div>
+                                <div class="brand-img-c">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPbN1R3Ov7WefjSbQolctq0F6xUtLVH1TrfA&usqp=CAU">
+                                </div>
+                            </div>
                         </div>
                         <hr>
                         <div class="avail-section">
                             <div class="avail">
                                 Select
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add">
                                 +
                             </div>
                         </div>
@@ -297,7 +313,7 @@
                             <div class="avail">
                                 Radio
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add">
                                 +
                             </div>
                         </div>
@@ -309,19 +325,24 @@
                             <div class="avail">
                                 Color
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add" onclick="addpart_color()">
                                 +
                             </div>
                         </div>
-                        <div class="add-part">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation 
+                        <div class="add-part-color">
+                            <div class="color-img">
+                                <div class="color-a"></div>
+                                <div class="color-b"></div>
+                                <div class="color-c"></div>
+                                <div class="color-d"></div>
+                            </div>
                         </div>
                         <hr>
                         <div class="avail-section">
                             <div class="avail">
                                 Clockspeed
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add">
                                 +
                             </div>
                         </div>
@@ -333,7 +354,7 @@
                             <div class="avail">
                                 Test-1
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add">
                                 +
                             </div>
                         </div>
@@ -345,7 +366,7 @@
                             <div class="avail">
                                 No. of Cores
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add">
                                 +
                             </div>
                         </div>
@@ -357,7 +378,7 @@
                             <div class="avail">
                                 Style
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add">
                                 +
                             </div>
                         </div>
@@ -369,7 +390,7 @@
                             <div class="avail">
                                 Features
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add">
                                 +
                             </div>
                         </div>
@@ -381,7 +402,7 @@
                             <div class="avail">
                                 Test-2
                             </div>
-                            <div class="avail-add" onclick="addpart()">
+                            <div class="avail-add">
                                 +
                             </div>
                         </div>
@@ -457,10 +478,11 @@
                                 </div>
                             </div>
                             <div class="carts">
-                                <div class="cart-image">
+                                <div class="cart-image red-line">
                                     <img src="https://i.pinimg.com/236x/f0/00/82/f00082cbf93827dd5bc34bb97fc767d5.jpg">
                                     <!-- <button id="cart-red-sticker">PRE-ORDER</button> -->
                                     <button id="carts-sticker-b">HOT</button>
+                                    <button id="cart-b-red-line">PRE-ORDER</button>
                                 </div>
                                 <div class="cart-grey">
                                     <div class="apple">Apple</div>

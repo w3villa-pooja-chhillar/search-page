@@ -254,6 +254,9 @@
     padding-top:12px;
     padding-bottom:20px;
 }
+.red-line{
+    overflow: hidden;
+}
 #carts-sticker-a{
     position:absolute;
     background-color: red;
@@ -274,6 +277,19 @@
     top:15px;
     font-size: 18px;
     padding:5px;
+}
+#cart-b-red-line{
+    position: absolute;
+    top: 30px;
+    left: -38px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 156px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    transform: rotate(-45deg);
 }
 #carts-sticker-c{
     position:absolute;
@@ -366,6 +382,10 @@
     border-radius: 4px;
 }
 
+#range{
+    width: 270px;
+    margin-bottom: 30px;
+}
 .price-section,
 .avail-section {
     display: flex;
@@ -380,6 +400,99 @@
 }
 .add-part{
     display:none;
+}
+.add-part-avail{
+    display:none;
+}
+.add-part-subcat{
+    display:none;
+    margin-bottom:20px;
+}
+#stock{
+    font-size:22px;
+    margin-bottom:10px;
+}
+.sub-img{
+    height:100px;
+    width:180px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-img a{
+    font-family: Roboto', 'sans-serif;
+    font-size:22px;
+    padding-left:10px;
+}
+.sub-img img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+.add-part-color{
+    display:none;
+}
+.color-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.color-a{
+    height:50px;
+    width:50px;
+    background-color: red;
+    border-radius:2px;
+}
+.color-b{
+    height:50px;
+    width:50px;
+    background-color: green;
+    border-radius:2px;
+}
+.color-c{
+    height:50px;
+    width:50px;
+    background-color: yellow;
+    border-radius:2px;
+}
+.color-d{
+    height:50px;
+    width:50px;
+    background-color: blue;
+    border-radius:2px;
+}
+.brand-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.add-part-brand{
+    display:none;
+}
+
+.brand-img-a{
+    height:50px;
+    width:50px;
+}
+.brand-img-a img{
+    width:100%;
+    height:100%;
+}
+.brand-img-b{
+    height:50px;
+    width:50px;
+}
+.brand-img-b img{
+    width:100%;
+    height:100%;
+}
+.brand-img-c{
+    height:50px;
+    width:50px;
+}
+.brand-img-c img{
+    width:100%;
+    height:100%;
 }
 /* search view page start here */
 .search-items {
