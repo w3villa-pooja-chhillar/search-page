@@ -123,6 +123,7 @@
 .journal-icon {
     column-gap: 10px;
     display: flex;
+    font-size:18px;
     justify-content: space-between;
 }
 
@@ -1097,6 +1098,28 @@ margin-bottom:20px;
     }
     .product-compare-default{
         margin-top:5px;
+    }
+}
+@media screen and (max-width:636px){
+    #carts-sticker-a,#carts-sticker-b,#carts-sticker-c{
+        left:436px;
+    }
+}
+@media screen and (max-width:536px){
+    #carts-sticker-a,#carts-sticker-b,#carts-sticker-c{
+        left:300px;
+    }
+}
+@media screen  and (max-width:368px){
+    #carts-sticker-a,#carts-sticker-b,#carts-sticker-c{
+        left:200px;
+    }
+    .round-icon{
+        height:32px;
+        width:32px
+    }
+    .phone-nav{
+        font-size:12px;
     }
 }
 
